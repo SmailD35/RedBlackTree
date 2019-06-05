@@ -11,6 +11,6 @@ before_install:
 before_script:
 - mkdir build
 - cd build
-- cmake
+- cmake ../RBTree/RBTree.pro
 
 script: make
