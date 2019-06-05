@@ -333,7 +333,7 @@ void Tree::rightRotate(node *a)
 {
     node* anew = a->left;
     node* p = batya(a);
-    assert(anew != nullptr);
+    //assert(anew != nullptr);
     a->left = anew->right;
     anew->right = a;
     a->batya = anew;
