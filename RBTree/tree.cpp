@@ -306,7 +306,7 @@ void Tree::leftRotate(node *a)
 {
     node* anew = a->right;
     node* p = batya(a);
-    assert(anew != nullptr);
+    //assert(anew != nullptr);
     a->right = anew->left;
     anew->left = a;
     a->batya = anew;
