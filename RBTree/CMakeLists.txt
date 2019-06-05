@@ -3,6 +3,9 @@ project(RBTree)
 find_package(Qt5 COMPONENTS REQUIRED Core Gui Widgets)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 set(project_sources mainwindow.cpp tree.cpp main.cpp)
 set(project_headers mainwindow.h tree.h)
 set(project_ui mainwindow.ui)
